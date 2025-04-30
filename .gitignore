@@ -1,0 +1,33 @@
+# Ignore large model files
+*.pth
+
+# Ignore compressed archives (often large)
+*.tar
+
+# Ignore Python serialized object files (can be large)
+*.pkl
+
+# Optional: Add other common ignores for Python projects
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.env.*
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.json
+
+outdated/
+wandb/
+test/
+test_lmdb/
+# Optional: Ignore IDE/Editor specific files
+.vscode/
+.idea/
+*.swp
+*~
+*.pt

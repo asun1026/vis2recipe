@@ -1,0 +1,16 @@
+# Core
+numpy>=1.21
+lmdb>=1.4
+pillow>=10.0             # (Pillow is the modern PIL)
+
+# PyTorch & vision
+torch>=2.2               # install a CUDA-matched build; see step 2 below
+torchvision>=0.17
+
+# Transformers & quantisation
+transformers>=4.40
+bitsandbytes>=0.43       # 4-bit quantisation backend
+accelerate>=0.27         # transformers’ recommended runtime helper
+
+# OPTIONAL: if you hit RAPID JSON warnings
+sentencepiece>=0.1.99
