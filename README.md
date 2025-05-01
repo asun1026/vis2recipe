@@ -1,6 +1,6 @@
 # Visual-To-Recipe: Automated Recipe Generation from Food Images
 
-This repository contains the implementation of our paper "Visual-To-Recipe: Automated Recipe Generation from Food Images," which presents a system for generating detailed cooking recipes directly from food dish images.
+This repository contains the implementation of our paper "Visual-To-Recipe: Automated Recipe Generation from Food Images," which presents a system for generating detailed cooking recipes directly from food dish images. [Link to Video Presentation](https://youtu.be/cTXMqVSnpUg)
 
 ## Project Overview
 
