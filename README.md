@@ -19,7 +19,7 @@ This approach allows us to leverage extensive knowledge embedded in pre-trained 
 The `recipe1m` directory contains the implementation of the frozen im2recipe model used as our vision encoder:
 
 - **model.py**: Implements the encoder that extracts embeddings from food images
-- **goated.ipynb**: Contains runnable cells that prepare data and train model, and provide demo examples
+- **experiments.ipynb**: Contains runnable cells that prepare data and train model, and provide demo examples
 
 We use the official pre-trained im2recipe model checkpoint (`model_e500_v-8.950.pth.tar`), which remains frozen during our training process.
 
